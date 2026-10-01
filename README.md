@@ -3,4 +3,4 @@ Webpage used to validate Project Lamb
 
 # Founder
 
-Kevin Guerrero
+Kevin Alexander Guerrero
