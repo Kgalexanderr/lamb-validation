@@ -9,9 +9,9 @@ export function Hero(){
   return(
     <div className="flex min-h-[80vh] flex-col items-center justify-between gap-12 pt-12" >
       <div className="flex h-full max-w-5xl flex-col items-center justify-center gap-8 text-center">
-        <p className="text-sm font-medium uppercase tracking-[0.2em]">Concept in development</p>
-        <h1 className="text-4xl font-bold md:text-5xl lg:text-8xl">One press. Phone away.</h1>
-        <p className="max-w-3xl text-lg leading-relaxed md:text-2xl">
+        {/* <p className="text-sm font-medium uppercase tracking-[0.2em]">Concept in development</p> */}
+        <h1 className=" font-bold text-6xl lg:text-8xl">One press. <br/> Phone away.</h1>
+        <p className="max-w-2xl text-md leading-relaxed md:text-lg">
           Moss Pioneer is a wearable concept designed to record a sermon or Bible study deliberately, so you can stay present and revisit the message later in the Moss app.
         </p>
         <Image
@@ -21,7 +21,7 @@ export function Hero(){
           height={510}
           className="w-full max-w-[590px] h-auto"
         />
-        <ButtonNotifyArrow />
+        {/* <ButtonNotifyArrow /> */}
       </div>
       <motion.div
         animate={{ y: [0, 10, 0] }}

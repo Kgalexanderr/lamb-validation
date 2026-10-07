@@ -12,10 +12,10 @@ export function Header(){
         </div>
 
         <div className="flex flex-row gap-6 items-center">
-          <Link href="/moss-pioneer" className="hidden md:block text-base lg:text-lg cursor-pointer font-medium">
+          <Link href="/moss-pioneer" className="block text-sm lg:text-lg cursor-pointer font-medium">
             Moss Pioneer
           </Link>
-          <ButtonNotify theme="light" className="px-4 text-base md:px-6 md:text-lg"/>
+          <ButtonNotify theme="light" className="px-4 text-sm  md:px-6 md:text-lg"/>
         </div>
       </div>
 
