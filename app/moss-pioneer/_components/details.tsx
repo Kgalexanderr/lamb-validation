@@ -26,7 +26,7 @@ export function Details(){
   return(
     <div className="flex flex-col w-full min-h-[50vh] bg-[#E5E0DD] rounded-4xl p-4 mt-4">
       <div className="flex flex-col items-center gap-12 py-12 h-full" >
-        <p className="text-6xl font-bold">Additional details</p>
+        <p className="text-2xl md:text-4xl md:text-4xl font-bold">Additional details</p>
       </div>
       <div className="flex flex-col px-8 text-[#21200B]">
         {faqs.map(({ question, answer }, index) => {

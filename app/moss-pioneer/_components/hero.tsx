@@ -7,8 +7,8 @@ import Image from "next/image";
 export function Hero(){
   return(
     <div className="flex flex-col justify-between items-center gap-12 pt-12 h-[80vh]" >
-      <div className="flex flex-col items-center gap-12">
-        <h1 className="text-8xl font-bold">Moss Pioneer</h1>
+      <div className="flex flex-col  h-full justify-center items-center gap-12">
+        <h1 className="text-4xl md:text-5xl lg:text-8xl font-bold">Moss Pioneer</h1>
         <Image
           src="/herotwo.png"
           alt="Moss Pioneer device"

@@ -13,9 +13,9 @@ const letters = [
 
 export function Footer() {
   return (
-    <footer className="flex flex-col items-center w-full gap-12 mb-12 h-[80vh]">
-      <div className="flex flex-col justify-between h-[70vh] bg-[#21200B] text-[#FFD900] w-full rounded-4xl overflow-hidden mt-12">
-        <div className="flex justify-between items-center w-full p-12 mt-6">
+    <footer className="flex flex-col items-center w-full gap-12 mb-12 h-[60vh] lg:h-[80vh]">
+      <div className="flex flex-col justify-between h-[70vh] bg-[#21200B] text-[#FFD900] w-full rounded-4xl overflow-hidden mt-4 lg:mt-12">
+        <div className="flex flex-col lg:flex-row justify-start gap-4 lg:justify-between items-start lg:items-center w-full p-6 lg:p-12 mt-6">
           <div className="flex flex-col gap-2">
             
             <Link href="https://www.linkedin.com/in/kguerrero0325/" className="underline underline-offset-4" target="_blank">Help make Moss worth it (Short survey)</Link>

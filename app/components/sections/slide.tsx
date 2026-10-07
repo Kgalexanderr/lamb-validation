@@ -89,7 +89,7 @@ export function Slide() {
   const next = () => setActiveIndex((i) => (i + 1) % items.length);
 
   return (
-    <div className="flex flex-row justify-between items-center w-full h-[90vh] bg-[#FFD900] rounded-4xl mt-12 overflow-hidden">
+    <div className="flex flex-col lg:flex-row justify-between items-center w-full lg:h-[90vh]  bg-[#FFD900] rounded-4xl mt-4 lg:mt-12 overflow-hidden">
       <div className="flex-1 w-full h-full p-8 flex flex-col">
         {items.map((item, index) =>
           index === activeIndex ? (
@@ -99,7 +99,7 @@ export function Slide() {
           )
         )}
       </div>
-      <div className="flex-1 relative w-full h-full">
+      <div className="flex-1 relative w-full h-full aspect-square lg:aspect-auto">
         {items.map((item, index) => (
           <motion.div
             key={index}
