@@ -21,7 +21,17 @@ export function GalleryThree(){
           <div className="flex flex-col justify-center items-center h-full w-full z-10">
             <Title title="Press once. Stay present." className="text-[#FFD900] " />
           </div>
-          <Image src="/images/press01.svg" alt="Planned sermon summary with key points and Scripture references" fill className=" absolute top-0 bottom-0 left-0 object-cover" />
+          <Image src="/images/press01.svg" alt="Moss Pioneer recording concept worn during a sermon" fill className="absolute inset-0 object-cover" />
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 z-[1] bg-black/30" />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 z-[2] opacity-20 mix-blend-soft-light"
+            style={{
+              backgroundImage:
+                "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='.65'/%3E%3C/svg%3E\")",
+              backgroundSize: "180px 180px",
+            }}
+          />
         </div>
         <div className="col-span-1 row-span-1 flex flex-col justify-between items-center bg-[#E5E0DD] rounded-4xl overflow-hidden">
           <div className="flex flex-col justify-center items-center h-full w-full">

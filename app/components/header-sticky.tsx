@@ -24,12 +24,12 @@ export function HeaderSticky() {
           className="fixed top-0 left-0 right-0 z-50 flex items-center w-full py-4 px-4 lg:px-8 bg-[#21200B]"
         >
           <div className="flex flex-row justify-between items-center w-full h-[60px] lg:h-[86px]">
-            <Link href="/" className="text-2xl lg:text-4xl font-bold text-[#FFD900] select-none">Moss</Link>
+            <Link href="/" className="text-4xl font-bold text-[#FFD900] select-none">Moss</Link>
             <div className="flex flex-row gap-6 items-center">
               <Link href="/moss-pioneer" className="text-sm lg:text-lg cursor-pointer font-medium text-[#FFD900]">
-                Moss Pioneer
+                Pioneer
               </Link>
-              <ButtonNotify theme="light" className="px-4 text-sm  md:px-6 md:text-lg"/>
+              <ButtonNotify theme="dark" className="px-4 text-sm  md:px-6 md:text-lg"/>
             </div>
           </div>
         </motion.header>

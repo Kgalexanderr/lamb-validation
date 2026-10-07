@@ -8,12 +8,12 @@ export function Header(){
 
       <div className="flex flex-row justify-between items-center w-full h-[60px] lg:h-[86px]">
         <div>
-          <Link href="/" className="text-2xl lg:text-4xl font-bold select-none">Moss</Link>
+          <Link href="/" className="text-4xl font-bold select-none">Moss</Link>
         </div>
 
         <div className="flex flex-row gap-6 items-center">
           <Link href="/moss-pioneer" className="block text-sm lg:text-lg cursor-pointer font-medium">
-            Moss Pioneer
+            Pioneer
           </Link>
           <ButtonNotify theme="light" className="px-4 text-sm  md:px-6 md:text-lg"/>
         </div>
