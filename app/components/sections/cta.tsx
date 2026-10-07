@@ -5,26 +5,27 @@ import { AudioLines, BatteryCharging, Globe, MicOff, type LucideIcon } from "luc
 const features: { icon: LucideIcon; title: string; description: string }[] = [
   {
     icon: AudioLines,
-    title: "Advanced noise filtering",
+    title: "Designed for clear sermon audio",
     description:
-      "Dual microphones and advanced noise filtering ensure clear comprehension and transcriptions.",
+      "We are exploring dual microphones and noise filtering to improve recordings in rooms with voices, music, and background noise.",
   },
   {
     icon: BatteryCharging,
-    title: "Up to 7 days of battery life",
-    description: "Features a battery that can last up to 160 hours on a single charge.",
+    title: "Targeting multi-day battery life",
+    description:
+      "The goal is a wearable that can go through the week between charges. Battery performance has not been validated yet.",
   },
   {
     icon: MicOff,
-    title: "Easily start and stop",
+    title: "One press, with a visible indicator",
     description:
-      "A single press of the button starts and stops capturing. Your device's LED will be green when Moss is capturing and off when it is not.",
+      "The planned button starts and stops recording, while an LED makes the recording state clear. Follow church policies and ask permission when needed.",
   },
   {
     icon: Globe,
-    title: "40 languages",
+    title: "Multilingual support is planned",
     description:
-      "Moss understands up to 40 different languages. Train it with the language you use most often.",
+      "We want Moss to serve church communities in multiple languages. The first supported languages will be set after prototype testing.",
   },
 ];
 
@@ -32,10 +33,13 @@ export function CTA() {
   return (
     <div className="flex flex-col w-full min-h-[90vh] bg-[#E5E0DD] rounded-4xl p-4 mt-4 lg:mt-12">
       <div className="flex flex-col items-center gap-18 pt-12 h-full" >
-        <p className="text-2xl md:text-4xl font-bold">The Moss Pioneer</p>
+        <div className="flex flex-col items-center gap-2 text-center">
+          <p className="text-sm font-medium uppercase tracking-[0.2em]">Concept in development</p>
+          <p className="text-2xl md:text-4xl font-bold">The Moss Pioneer</p>
+        </div>
         <Image
           src="/ctaone.png"
-          alt="Moss Pioneer device"
+          alt="Moss Pioneer wearable concept"
           width={1408}
           height={510}
           className="w-full max-w-[400px] lg:max-w-[600px] h-auto"
@@ -53,11 +57,14 @@ export function CTA() {
             </div>
           ))}
         </div>
+        <p className="max-w-3xl text-center text-sm lg:text-base leading-relaxed">
+          Privacy is part of the design. Personal recordings are intended to be private by default, deletable by you, and never used to train AI. These commitments will be verified as Moss is built.
+        </p>
         <Link
           href="/moss-pioneer"
           className="bg-[#21200B] text-[#FFD900] text-center text-lg px-6 py-3 rounded-full w-full md:w-fit"
         >
-          Learn more about Moss Pioneer
+          Explore the Moss Pioneer concept
         </Link>
       </div>
     </div>

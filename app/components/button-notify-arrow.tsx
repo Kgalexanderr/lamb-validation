@@ -20,7 +20,7 @@ export function ButtonNotifyArrow() {
           <ArrowUp size={20} strokeWidth={2} />
         </motion.span>
       </span>
-      Get Notified
+      Join Early Access
     </motion.button>
   );
 }

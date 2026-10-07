@@ -2,16 +2,19 @@ import { BookOpen, Smartphone, Watch, type LucideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const items: { icon: LucideIcon; title: string; description: string; dark: boolean }[] = [
-  { icon: Smartphone, title: "Moss Pioneer", description: "The standalone device", dark: false },
-  { icon: Watch, title: "Wristband", description: "To wear Moss on either wrist", dark: true },
-  { icon: BookOpen, title: "Start Guide", description: "Details to set up and personalize Moss", dark: false },
+  { icon: Watch, title: "Comfort first", description: "Light enough to wear through a full service or study", dark: false },
+  { icon: Smartphone, title: "Simple by design", description: "One deliberate action while the phone stays away", dark: true },
+  { icon: BookOpen, title: "Made for church", description: "Clear recording signals, consent guidance, and a focused companion app", dark: false },
 ];
 
 export function Box(){
   return(
     <div className="flex flex-col w-full min-h-[50vh] bg-[#E5E0DD] rounded-4xl p-4 mt-4">
-      <div className="flex flex-col items-center gap-12 py-12 h-full" >
-        <p className="text-2xl md:text-4xl font-bold">What&apos;s in the box?</p>
+      <div className="flex flex-col items-center gap-3 py-12 h-full text-center" >
+        <p className="text-2xl md:text-4xl font-bold">Help shape the first Moss Pioneer</p>
+        <p className="max-w-2xl text-base leading-relaxed text-[#21200B]/70 md:text-lg">
+          The final hardware is not decided. Early-access feedback will help us prioritize the parts of the experience that matter most.
+        </p>
       </div>
       <div className="flex flex-1 justify-center items-center bg-[#F7F3F1] rounded-4xl px-8 py-16 text-[#21200B]">
         <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-x-24 gap-y-16 justify-center lg:justify-items-start">

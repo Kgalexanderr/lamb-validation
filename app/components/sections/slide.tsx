@@ -9,22 +9,22 @@ const SLIDE_DURATION = 10;
 
 const items: { title: string; description: string; image: string }[] = [
   {
-    title: "Moss turns what you hear into something you can carry",
+    title: "Keep your phone away and stay present",
     description:
-      "Moss captures your sermons and Bible studies and turns them into summaries, Scripture references, notes, reminders, and more — so the things that matter don’t get lost when you leave the room.",
-    image: "/handone.png",
+      "Moss Pioneer is being designed for deliberate, one-press recording, so you can listen without typing notes on your phone. A visible light would show when recording is active.",
+    image: "/images/handone.png",
   },
   {
-    title: "Moss remembers what matters to you",
+    title: "Come back to an organized message",
     description:
-      "As you use Moss, it connects the sermons, verses, topics, and moments you’ve saved — making it easier to look back, reflect, and continue where you left off.",
-    image: "/handtwo.png",
+      "The companion app is planned to turn each recording into a transcript, concise summary, Scripture references, notes, dates, and reminders you can review after church.",
+    image: "/images/handtwo.png",
   },
   {
-    title: "Moss is there between Sundays",
+    title: "Return to the message between Sundays",
     description:
-      "Forgot what your pastor said last week? Want to revisit a verse from Bible study? Have a thought you don’t want to lose? Talk to Moss through the Moss Pioneer or the iOS and Android app.",
-    image: "/newway5.png",
+      "Ask questions grounded in your saved sermons, Bible studies, and cited Scripture. You can also add a voice reflection when a thought is worth keeping.",
+    image: "/images/image01.svg",
   },
 ];
 

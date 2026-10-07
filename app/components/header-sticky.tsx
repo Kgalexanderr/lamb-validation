@@ -26,10 +26,10 @@ export function HeaderSticky() {
           <div className="flex flex-row justify-between items-center w-full h-[60px] lg:h-[86px]">
             <Link href="/" className="text-2xl lg:text-4xl font-bold text-[#FFD900] select-none">Moss</Link>
             <div className="flex flex-row gap-6 items-center">
-              <Link href="/moss-pioneer" className="text-base lg:text-lg cursor-pointer font-medium text-[#FFD900]">
+              <Link href="/moss-pioneer" className="hidden md:block text-base lg:text-lg cursor-pointer font-medium text-[#FFD900]">
                 Moss Pioneer
               </Link>
-              <ButtonNotify theme="dark" />
+              <ButtonNotify theme="dark" className="px-4 text-base md:px-6 md:text-lg" />
             </div>
           </div>
         </motion.header>

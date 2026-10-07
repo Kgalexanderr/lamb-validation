@@ -18,7 +18,7 @@ export function Footer() {
         <div className="flex flex-col lg:flex-row justify-start gap-4 lg:justify-between items-start lg:items-center w-full p-6 lg:p-12 mt-6">
           <div className="flex flex-col gap-2">
             
-            <Link href="https://www.linkedin.com/in/kguerrero0325/" className="underline underline-offset-4" target="_blank">Help make Moss worth it (Short survey)</Link>
+            <Link href="https://www.linkedin.com/in/kguerrero0325/" className="underline underline-offset-4" target="_blank">Help shape Moss (optional short survey)</Link>
             <Link href="mailto:Kguerrero0325@gmail.com"  target="_blank">Kguerrero0325@gmail.com</Link>
           </div>
           <div>
