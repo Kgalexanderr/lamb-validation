@@ -15,7 +15,7 @@ export function Hero(){
 
         <div className="flex flex-col gap-4">
           <p className="text-lg md:text-2xl lg:text-3xl font-medium text-white">Introducing Moss</p>
-          <p className="text-4xl md:text-5xl lg:text-9xl font-bold leading-none text-white ">The era of forgetting ends now.</p>
+          <p className="text-4xl md:text-5xl lg:text-9xl font-bold leading-none text-white">The era of forgetting sermons and studies ends now.</p>
         </div>
         <div className="shrink-0">
           <ButtonNotifyArrow/>

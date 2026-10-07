@@ -17,7 +17,7 @@ export function GalleryThree(){
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-between items-center w-full min-h-[150vh] mt-4 lg:mt-12">
       
       <div className="grid grid-row-2 gap-4 w-full h-full">
-       <div className="col-span-1 flex flex-col justify-between items-center bg-[#D3C3FF] rounded-4xl overflow-hidden">
+        <div className="col-span-1 flex flex-col justify-between items-center bg-[#D3C3FF] rounded-4xl overflow-hidden">
           <div className="flex flex-col justify-center items-center h-full w-full">
             <Title title="Gallery 1" className="text-[#FFFFFF]" />
           </div>
